@@ -15,6 +15,7 @@ gem 'jbuilder', '~> 2.0'
 # gem 'debugger', group: [:development, :test]
 gem 'tzinfo-data', platforms: [:mingw, :mswin]
 
+gem 'bootstrap-sass'
 group :development, :test do
   gem 'sqlite3'
   gem 'rspec-rails'

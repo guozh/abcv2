@@ -16,6 +16,7 @@ gem 'jbuilder', '~> 2.0'
 gem 'tzinfo-data', platforms: [:mingw, :mswin]
 
 gem 'bootstrap-sass'
+gem 'bcrypt'
 group :development, :test do
   gem 'sqlite3'
   gem 'rspec-rails'

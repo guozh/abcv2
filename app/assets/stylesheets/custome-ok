@@ -2,13 +2,9 @@
 
 /* mixins, variables, etc. */
 
-$grayLight: #eaeaea;
-$grayMediumLight:  #eaeaea;
-$grayDarker:  #eaeaea;
-$grayLighter:  #eaeaea;
-$blue : #eaeaea;
+$grayMediumLight: #eaeaea;
 
-@mixin box_sizing
+@mixin box_sizing 
 {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -89,16 +85,16 @@ p {
 
 /* Barra lateral */
 
-aside
+aside 
 {
   section
   {
     padding: 10px 0;
-    border-top: 1px solid $grayLight;
+    border-top: 1px solid $grayLighter;
     &:first-child
     {
       border: 0;
-      padding-top: 0;
+      padding-top: 0;     
     }
     span
     {
